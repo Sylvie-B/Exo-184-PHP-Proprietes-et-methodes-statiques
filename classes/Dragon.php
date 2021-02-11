@@ -30,4 +30,8 @@ class Dragon extends Personnage {
     public function cracheFeu() {
 
     }
-} 
+
+    public static function getNbrOfDragon() {
+        return self::$nbrOfDragon;
+    }
+}
